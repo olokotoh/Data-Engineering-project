@@ -5,4 +5,4 @@ End to End Data Engr Project.
 ### A 
  The first task is to design a data ingestion pipeline architecture showing the different tools and framework used to arrived at the final result. Below is a grapgical representation of the Architecture for Data Ingestion Pipeline.
  
- <img src="https://drive.google.com/file/d/10vLQox8zrDmg5e1SB1F4q1sC6_jJ3-S9/view?usp=sharing" width="50%" height="50%">
+ ![ingest pipeline](https://github.com/olokotoh/Data-Engineering-project/images/pipeline1.png?raw=true)
