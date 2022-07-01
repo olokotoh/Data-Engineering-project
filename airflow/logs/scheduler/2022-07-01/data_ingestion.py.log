@@ -1,0 +1,1036 @@
+[2022-07-01 22:30:33,695] {processor.py:153} INFO - Started process (PID=64) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:30:33,696] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:30:33,697] {logging_mixin.py:115} INFO - [2022-07-01 22:30:33,697] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:30:33,841] {logging_mixin.py:115} INFO - [2022-07-01 22:30:33,825] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:30:33,842] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:30:34,073] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.395 seconds
+[2022-07-01 22:31:04,869] {processor.py:153} INFO - Started process (PID=82) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:31:04,902] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:31:04,933] {logging_mixin.py:115} INFO - [2022-07-01 22:31:04,933] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:31:08,736] {logging_mixin.py:115} INFO - [2022-07-01 22:31:08,441] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:31:08,801] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:31:10,326] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 5.474 seconds
+[2022-07-01 22:31:40,882] {processor.py:153} INFO - Started process (PID=102) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:31:40,920] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:31:41,034] {logging_mixin.py:115} INFO - [2022-07-01 22:31:41,034] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:31:41,081] {logging_mixin.py:115} INFO - [2022-07-01 22:31:41,078] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:31:41,081] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:31:41,137] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.259 seconds
+[2022-07-01 22:32:11,228] {processor.py:153} INFO - Started process (PID=123) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:32:11,228] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:32:11,229] {logging_mixin.py:115} INFO - [2022-07-01 22:32:11,229] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:32:11,246] {logging_mixin.py:115} INFO - [2022-07-01 22:32:11,243] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:32:11,247] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:32:11,329] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.108 seconds
+[2022-07-01 22:32:41,406] {processor.py:153} INFO - Started process (PID=143) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:32:41,493] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:32:41,902] {logging_mixin.py:115} INFO - [2022-07-01 22:32:41,901] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:32:42,346] {logging_mixin.py:115} INFO - [2022-07-01 22:32:42,343] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:32:42,347] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:32:42,398] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.997 seconds
+[2022-07-01 22:33:12,560] {processor.py:153} INFO - Started process (PID=163) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:33:12,561] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:33:12,562] {logging_mixin.py:115} INFO - [2022-07-01 22:33:12,562] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:33:13,023] {logging_mixin.py:115} INFO - [2022-07-01 22:33:13,020] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:33:13,023] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:33:13,078] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.522 seconds
+[2022-07-01 22:33:43,226] {processor.py:153} INFO - Started process (PID=192) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:33:43,278] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:33:43,280] {logging_mixin.py:115} INFO - [2022-07-01 22:33:43,280] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:33:44,874] {logging_mixin.py:115} INFO - [2022-07-01 22:33:44,871] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:33:44,875] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:33:44,934] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 1.713 seconds
+[2022-07-01 22:34:15,056] {processor.py:153} INFO - Started process (PID=213) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:34:15,056] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:34:15,057] {logging_mixin.py:115} INFO - [2022-07-01 22:34:15,057] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:34:15,073] {logging_mixin.py:115} INFO - [2022-07-01 22:34:15,070] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:34:15,131] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:34:15,182] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.133 seconds
+[2022-07-01 22:34:45,282] {processor.py:153} INFO - Started process (PID=234) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:34:45,309] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:34:45,310] {logging_mixin.py:115} INFO - [2022-07-01 22:34:45,310] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:34:45,328] {logging_mixin.py:115} INFO - [2022-07-01 22:34:45,325] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:34:45,328] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:34:45,484] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.208 seconds
+[2022-07-01 22:35:15,580] {processor.py:153} INFO - Started process (PID=253) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:35:15,581] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:35:15,583] {logging_mixin.py:115} INFO - [2022-07-01 22:35:15,582] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:35:15,605] {logging_mixin.py:115} INFO - [2022-07-01 22:35:15,600] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:35:15,605] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:35:15,743] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.170 seconds
+[2022-07-01 22:35:45,823] {processor.py:153} INFO - Started process (PID=272) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:35:45,874] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:35:45,875] {logging_mixin.py:115} INFO - [2022-07-01 22:35:45,875] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:35:45,891] {logging_mixin.py:115} INFO - [2022-07-01 22:35:45,888] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:35:45,892] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:35:46,035] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.216 seconds
+[2022-07-01 22:36:16,172] {processor.py:153} INFO - Started process (PID=305) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:36:16,173] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:36:16,174] {logging_mixin.py:115} INFO - [2022-07-01 22:36:16,174] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:36:16,201] {logging_mixin.py:115} INFO - [2022-07-01 22:36:16,196] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:36:16,202] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:36:16,271] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.107 seconds
+[2022-07-01 22:36:46,357] {processor.py:153} INFO - Started process (PID=325) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:36:46,378] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:36:46,379] {logging_mixin.py:115} INFO - [2022-07-01 22:36:46,379] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:36:46,395] {logging_mixin.py:115} INFO - [2022-07-01 22:36:46,392] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:36:46,396] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:36:46,463] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.112 seconds
+[2022-07-01 22:37:16,546] {processor.py:153} INFO - Started process (PID=346) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:37:16,547] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:37:16,549] {logging_mixin.py:115} INFO - [2022-07-01 22:37:16,548] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:37:16,569] {logging_mixin.py:115} INFO - [2022-07-01 22:37:16,565] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:37:16,569] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:37:16,799] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.260 seconds
+[2022-07-01 22:37:46,890] {processor.py:153} INFO - Started process (PID=365) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:37:46,921] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:37:46,922] {logging_mixin.py:115} INFO - [2022-07-01 22:37:46,922] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:37:46,940] {logging_mixin.py:115} INFO - [2022-07-01 22:37:46,936] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:37:46,940] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:37:47,014] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.131 seconds
+[2022-07-01 22:38:17,092] {processor.py:153} INFO - Started process (PID=386) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:38:17,093] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:38:17,094] {logging_mixin.py:115} INFO - [2022-07-01 22:38:17,094] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:38:17,281] {logging_mixin.py:115} INFO - [2022-07-01 22:38:17,278] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:38:17,281] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:38:17,339] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.252 seconds
+[2022-07-01 22:38:47,427] {processor.py:153} INFO - Started process (PID=404) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:38:47,451] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:38:47,452] {logging_mixin.py:115} INFO - [2022-07-01 22:38:47,452] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:38:47,511] {logging_mixin.py:115} INFO - [2022-07-01 22:38:47,507] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:38:47,511] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:38:47,653] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.232 seconds
+[2022-07-01 22:39:17,777] {processor.py:153} INFO - Started process (PID=434) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:39:17,780] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:39:17,783] {logging_mixin.py:115} INFO - [2022-07-01 22:39:17,783] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:39:17,860] {logging_mixin.py:115} INFO - [2022-07-01 22:39:17,856] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:39:17,861] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:39:17,934] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.165 seconds
+[2022-07-01 22:39:48,043] {processor.py:153} INFO - Started process (PID=454) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:39:48,068] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:39:48,070] {logging_mixin.py:115} INFO - [2022-07-01 22:39:48,069] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:39:48,094] {logging_mixin.py:115} INFO - [2022-07-01 22:39:48,090] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:39:48,095] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:39:48,240] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.205 seconds
+[2022-07-01 22:40:18,332] {processor.py:153} INFO - Started process (PID=475) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:40:18,333] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:40:18,334] {logging_mixin.py:115} INFO - [2022-07-01 22:40:18,334] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:40:18,419] {logging_mixin.py:115} INFO - [2022-07-01 22:40:18,416] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:40:18,420] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:40:18,484] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.157 seconds
+[2022-07-01 22:40:48,582] {processor.py:153} INFO - Started process (PID=494) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:40:48,605] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:40:48,606] {logging_mixin.py:115} INFO - [2022-07-01 22:40:48,606] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:40:48,656] {logging_mixin.py:115} INFO - [2022-07-01 22:40:48,646] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:40:48,657] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:40:48,709] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.133 seconds
+[2022-07-01 22:41:18,785] {processor.py:153} INFO - Started process (PID=514) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:41:18,786] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:41:18,788] {logging_mixin.py:115} INFO - [2022-07-01 22:41:18,788] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:41:18,816] {logging_mixin.py:115} INFO - [2022-07-01 22:41:18,811] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:41:18,816] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:41:18,890] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.110 seconds
+[2022-07-01 22:41:48,994] {processor.py:153} INFO - Started process (PID=533) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:41:49,027] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:41:49,028] {logging_mixin.py:115} INFO - [2022-07-01 22:41:49,028] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:41:49,081] {logging_mixin.py:115} INFO - [2022-07-01 22:41:49,077] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:41:49,082] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:41:49,160] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.172 seconds
+[2022-07-01 22:42:19,242] {processor.py:153} INFO - Started process (PID=554) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:42:19,243] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:42:19,244] {logging_mixin.py:115} INFO - [2022-07-01 22:42:19,243] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:42:19,325] {logging_mixin.py:115} INFO - [2022-07-01 22:42:19,322] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:42:19,326] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:42:19,596] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.359 seconds
+[2022-07-01 22:42:49,688] {processor.py:153} INFO - Started process (PID=586) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:42:49,711] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:42:49,712] {logging_mixin.py:115} INFO - [2022-07-01 22:42:49,712] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:42:49,762] {logging_mixin.py:115} INFO - [2022-07-01 22:42:49,758] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:42:49,763] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:42:49,844] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.164 seconds
+[2022-07-01 22:43:19,929] {processor.py:153} INFO - Started process (PID=608) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:43:19,929] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:43:19,930] {logging_mixin.py:115} INFO - [2022-07-01 22:43:19,930] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:43:20,000] {logging_mixin.py:115} INFO - [2022-07-01 22:43:19,996] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:43:20,000] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:43:20,058] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.135 seconds
+[2022-07-01 22:43:50,135] {processor.py:153} INFO - Started process (PID=629) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:43:50,195] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:43:50,197] {logging_mixin.py:115} INFO - [2022-07-01 22:43:50,196] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:43:50,221] {logging_mixin.py:115} INFO - [2022-07-01 22:43:50,216] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:43:50,221] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:43:50,538] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.408 seconds
+[2022-07-01 22:44:20,636] {processor.py:153} INFO - Started process (PID=649) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:44:20,637] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:44:20,638] {logging_mixin.py:115} INFO - [2022-07-01 22:44:20,638] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:44:20,656] {logging_mixin.py:115} INFO - [2022-07-01 22:44:20,653] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:44:20,657] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:44:20,719] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.088 seconds
+[2022-07-01 22:44:50,798] {processor.py:153} INFO - Started process (PID=676) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:44:50,833] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:44:50,834] {logging_mixin.py:115} INFO - [2022-07-01 22:44:50,834] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:44:50,857] {logging_mixin.py:115} INFO - [2022-07-01 22:44:50,852] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:44:50,857] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:44:50,945] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.152 seconds
+[2022-07-01 22:45:21,041] {processor.py:153} INFO - Started process (PID=698) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:45:21,042] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:45:21,043] {logging_mixin.py:115} INFO - [2022-07-01 22:45:21,043] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:45:21,086] {logging_mixin.py:115} INFO - [2022-07-01 22:45:21,083] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:45:21,087] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:45:21,159] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.123 seconds
+[2022-07-01 22:45:51,238] {processor.py:153} INFO - Started process (PID=729) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:45:51,280] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:45:51,281] {logging_mixin.py:115} INFO - [2022-07-01 22:45:51,281] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:45:51,299] {logging_mixin.py:115} INFO - [2022-07-01 22:45:51,296] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:45:51,300] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:45:51,362] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.130 seconds
+[2022-07-01 22:46:21,443] {processor.py:153} INFO - Started process (PID=749) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:46:21,444] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:46:21,445] {logging_mixin.py:115} INFO - [2022-07-01 22:46:21,444] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:46:21,461] {logging_mixin.py:115} INFO - [2022-07-01 22:46:21,458] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:46:21,461] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:46:21,509] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.073 seconds
+[2022-07-01 22:46:51,600] {processor.py:153} INFO - Started process (PID=769) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:46:51,631] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:46:51,632] {logging_mixin.py:115} INFO - [2022-07-01 22:46:51,632] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:46:51,648] {logging_mixin.py:115} INFO - [2022-07-01 22:46:51,646] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:46:51,649] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:46:51,812] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.218 seconds
+[2022-07-01 22:47:21,904] {processor.py:153} INFO - Started process (PID=787) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:47:21,905] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:47:21,906] {logging_mixin.py:115} INFO - [2022-07-01 22:47:21,905] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:47:21,923] {logging_mixin.py:115} INFO - [2022-07-01 22:47:21,920] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:47:21,924] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:47:21,982] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.085 seconds
+[2022-07-01 22:47:52,073] {processor.py:153} INFO - Started process (PID=808) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:47:52,104] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:47:52,105] {logging_mixin.py:115} INFO - [2022-07-01 22:47:52,104] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:47:52,125] {logging_mixin.py:115} INFO - [2022-07-01 22:47:52,121] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:47:52,125] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:47:52,296] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.231 seconds
+[2022-07-01 22:48:22,377] {processor.py:153} INFO - Started process (PID=826) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:48:22,378] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:48:22,379] {logging_mixin.py:115} INFO - [2022-07-01 22:48:22,378] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:48:22,396] {logging_mixin.py:115} INFO - [2022-07-01 22:48:22,393] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:48:22,396] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:48:22,466] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.095 seconds
+[2022-07-01 22:48:52,556] {processor.py:153} INFO - Started process (PID=855) to work on /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:48:52,576] {processor.py:641} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-07-01 22:48:52,577] {logging_mixin.py:115} INFO - [2022-07-01 22:48:52,577] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:48:52,594] {logging_mixin.py:115} INFO - [2022-07-01 22:48:52,591] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 17, in <module>
+    bash_command = 'echo "hello world"'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 144, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2130, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2022-07-01 22:48:52,594] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-07-01 22:48:52,747] {processor.py:161} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.197 seconds
