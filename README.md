@@ -7,3 +7,5 @@ End to End Data Engr Project.
  
  
  <img src="/images/pipeline1.png" alt="Alt text" title="Optional title">
+ 
+ The Diagram above shows the process of getting the data, from extraction to dashboard 
